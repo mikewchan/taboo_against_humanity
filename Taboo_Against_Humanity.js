@@ -16,13 +16,10 @@ template helper function. */
   Template.cardItem.helpers ({
     card: function(){
       return TabooCards.find()
-  },
-    otherHelperFunction: function(){
-      return "Some other function"
-    }
+  	},
 });
-}
+} 
 
 if(Meteor.isServer){
   
-}
+} 
